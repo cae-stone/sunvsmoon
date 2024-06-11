@@ -20,12 +20,7 @@ function classChange(cell, symbol) {
 
 function randomBool() {
     const value = Math.floor(Math.random() * 2) + 1
-    if(value == 1){
-        return true
-    } 
-    else {
-        return false
-    }
+    return value == 1
 }
 
 const winPossibilities = [
